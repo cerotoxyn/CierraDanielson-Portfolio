@@ -1,0 +1,26 @@
+start
+// initialize variables
+set numLow to 1
+set numHigh to 100
+set target to randomly chosen number between numLow and numHigh
+numGuess = user number guess
+target = random(low,high) 
+//Assume random() generates a random number between low and high.
+
+display "Guess a number."
+input numGuess
+IF numGuess = target then
+output "Congratulations! You guessed the number correctly."
+break
+
+ELSE IF numGuess < target THEN
+display "Too low. Try again."
+repeat loop
+
+ELSE IF guess > target THEN
+display "Too high. Try again."
+repeat loop
+END IF
+END WHILE
+
+end

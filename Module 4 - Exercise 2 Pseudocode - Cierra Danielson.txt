@@ -1,0 +1,25 @@
+start
+// initiate variables
+targetWord = "logic"
+currentPage = initialPageNumber
+dictionary = loadDictionary()
+
+WHILE TRUE
+pageContent = readPage (dictionary, currentPage)
+firstWordOnPage = getFirstWord (pageContent)
+lastWordOnPage = getLastWord (pageContent)
+
+IF targetWord is between firstWordOnPage and lastWordOnPage THEN
+display "Word found on page." 
+BREAK
+
+ELSE IF targetWord < firstWordOnPage THEN
+display "Flip backward."
+currentPage = currentPage - 1
+ELSE
+display "Flip forward."
+currentPage = currentPage + 1
+END IF
+END WHILE
+
+end

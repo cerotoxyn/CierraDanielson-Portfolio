@@ -1,0 +1,23 @@
+// This program accepts a user's monthly pay
+// and rent, utilities, and grocery bills
+// and displays the amount available for discretionary spending
+// (which might be negative)
+// Your program should output the pay and the total bills
+// as well as the reamining discretionary amount 
+
+totalPay = total monthly pay
+totalBills = total of bills for the month
+remainingPay = money remaining after bills 
+negativeBalance = negative balance remaining
+
+start
+input totalPay
+input totalBills
+calculate totalPay - totalBills = remainingPay
+output remainingPay
+
+if remainingPay is < 0 then
+display "totalPay, totalBills, -remainingPay"
+else
+display "totalPay, totalBills, remainingPay"
+stop
