@@ -1,0 +1,21 @@
+
+start
+//global variables
+balance
+overdrafts
+fee
+
+//Housekeeping Module
+input accountBalance
+assign balance to user input
+
+//Detail Module
+prompt user for number of overdrafts
+assign overdrafts to user input
+calculate fee = (0.01 * balance) - (5 * overdrafts)
+display "Monthly Fee " +fee
+display "New account balance: " + accountBalance
+
+//End of job Module
+display "Thanks for using this program."
+end

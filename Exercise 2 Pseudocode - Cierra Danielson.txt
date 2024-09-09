@@ -1,0 +1,13 @@
+// This pseudocode is intended to describe
+// computing the daily cost of your rent
+// in a 30-day month
+
+monthlyRent // Monthly cost of rent
+daysinMonth = 30
+dailyCost // daily cost of rent in a 30-day period
+
+start
+input monthlyRent
+output monthlyRent / daysinMonth = dailyCost
+display dailyCost
+stop

@@ -1,0 +1,22 @@
+
+Refrigerator Name // refrigeratorModel
+
+//We will start by asking for the refrigeratorModel
+start
+prompt user for refrigeratorModel
+IF input is "XXX"
+BREAK out of loop
+
+input interior height in inches
+input interior width in inches
+input interior depth in inches
+
+calculate cubic inches = height * width * depth
+calculate cubic feet = cubic inches / 1728
+
+display "Model Name: " + refrigeratorModel
+display "Capcity: " + cubic feet
+
+end while
+display "Exiting program..."
+end

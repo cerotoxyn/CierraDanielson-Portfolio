@@ -1,0 +1,15 @@
+// This pseudocode is intended to compute the number
+// of miles per gallon you get with your automobile
+
+milesPerGallon // Miles per gallon
+gallonsUsed // Number of gallons of gas used
+milesTravelled // Miles traveled
+
+start
+input milesTravelled
+input gallonsUsed
+
+//Calculcate miles per gallon
+output milesPerGallon = milesTravelled / gallonsUsed
+display milesPerGallon
+stop
